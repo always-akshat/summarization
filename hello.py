@@ -16,7 +16,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from nltk.stem.porter import PorterStemmer
 
 start_time = time.time()
-redis = redis.StrictRedis(host='54.254.100.71', port=6379, db=10)
+redis = redis.StrictRedis(host='xxxx', port='xxx', db='x')
 path = '/home/akshat/data/hindu/plain_text'
 token_dict = {}
 article_count = 0
