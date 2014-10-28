@@ -10,7 +10,7 @@ import logging
 
 
 start_time = time.time()
-redis = redis.StrictRedis(host='54.254.100.71', port=6379, db=10)
+redis = redis.StrictRedis(host='xxxx', port='xxx', db='xxx')
 readpath = '/home/akshat/data/de-news-v0.91/txt/vector/de-news-1999-08-10.en.txt'
 
 
