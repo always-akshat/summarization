@@ -32,7 +32,7 @@ def strip_tags(html):
 
 start_time = time.time()
 stemmer = PorterStemmer()
-redis = redis.StrictRedis(host='54.254.100.71', port=6379, db=10)
+redis = redis.StrictRedis(host='xxx', port=xx, db=x)
 readpath = '/home/akshat/data/hindu/plain_text/'
 writepath = readpath + 'tagged/'
 print writepath
