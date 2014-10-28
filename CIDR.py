@@ -18,7 +18,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import PorterStemmer
 
 start_time = time.time()
-redis = redis.StrictRedis(host='54.254.100.71', port=6379, db=10)
+redis = redis.StrictRedis(host='xxxxx', port=xxx, db=xx)
 articles_dir = '/home/akshat/data/hindu/plain_text/tagged'
 clusterpath = articles_dir + '/clusters_keep_20'
 
